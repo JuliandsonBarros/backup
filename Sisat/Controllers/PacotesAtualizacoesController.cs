@@ -208,6 +208,7 @@ namespace Sisat.Controllers
             }
             memoria.Position = 0;
 
+
             return File(memoria, GetContentType(filePath), Path.GetFileName(filePath));
         }
 
@@ -232,6 +233,7 @@ namespace Sisat.Controllers
         {".jpg", "image/jpeg"},
         {".jpeg", "image/jpeg"},
         {".gif", "image/gif"},
+        {".zip","application/zip." },
         {".csv", "text/csv"}
     };
         }

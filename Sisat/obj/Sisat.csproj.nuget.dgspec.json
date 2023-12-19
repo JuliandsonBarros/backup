@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\workspace\\Sisat\\Sisat\\Sisat.csproj": {}
+    "C:\\Users\\juliandson.soares\\Desktop\\backup\\Sisat\\Sisat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\workspace\\Sisat\\Sisat\\Sisat.csproj": {
+    "C:\\Users\\juliandson.soares\\Desktop\\backup\\Sisat\\Sisat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\workspace\\Sisat\\Sisat\\Sisat.csproj",
+        "projectUniqueName": "C:\\Users\\juliandson.soares\\Desktop\\backup\\Sisat\\Sisat.csproj",
         "projectName": "Sisat",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\workspace\\Sisat\\Sisat\\Sisat.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\workspace\\Sisat\\Sisat\\obj\\",
+        "projectPath": "C:\\Users\\juliandson.soares\\Desktop\\backup\\Sisat\\Sisat.csproj",
+        "packagesPath": "C:\\Users\\juliandson.soares\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juliandson.soares\\Desktop\\backup\\Sisat\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juliandson.soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
